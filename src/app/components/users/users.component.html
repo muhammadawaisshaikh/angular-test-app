@@ -4,6 +4,6 @@
     <li *ngFor="let item of users.results">
         <h4>{{item.name}}</h4>
         <p>{{item.gender}}</p>
-        <p>{{item.created}}</p>
+        <p>{{item.created | date }}</p>
     </li>
 </ul>
