@@ -30,4 +30,8 @@ export class HomeComponent implements OnInit {
     )
   }
 
+  menuToggle(event) {
+    console.log("from home", event);
+  }
+
 }

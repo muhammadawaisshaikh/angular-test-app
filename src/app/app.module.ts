@@ -13,12 +13,16 @@ import { TokenInterceptor } from '../app/core/interceptors/token.interceptor';
 // components
 import { HomeComponent } from './components/home/home.component';
 import { UsersComponent } from './components/users/users.component';
+import { SideMenuComponent } from './layout/side-menu/side-menu.component';
+import { HeaderComponent } from './layout/header/header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    UsersComponent
+    UsersComponent,
+    SideMenuComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
