@@ -10,6 +10,7 @@ import { MessageServiceService } from '../../core/services/message-service/messa
 export class HomeComponent implements OnInit {
 
   data: any = {};
+  messages: any = [];
 
   constructor(
     private homeService: HomeService,
@@ -36,7 +37,9 @@ export class HomeComponent implements OnInit {
   getUpdatedMessage() {
     this.messageService.message.subscribe(
       res => {
+        this.messages.push(res);
         console.log('message', res);
+        console.log('messages', this.messages);
       }
     )
   }
