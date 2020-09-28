@@ -1,5 +1,5 @@
-# angular-test-app
-angular test app to work with concepts like http calls, interceptors
+# angular-boilerplate-app
+angular boilerplate app to work with concepts like http calls, interceptors, it's in progress, will be adding some more great angular things ahead. Stay tuned   
 
 # Output Decorator, EventEmitter
 https://dev.to/muhammadawaisshaikh/eventemitter-in-angular-rxjs-33i5
